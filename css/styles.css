@@ -399,10 +399,18 @@ img {
   background-color: #fff;
 }
 
+.clients-item a {
+  color: #afb1b8;
+}
+
 .clients-item:hover,
 .clients-item:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.clients-item > a:hover {
+  color: var(--accent-color);
 }
 
 .client {
